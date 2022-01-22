@@ -35,7 +35,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          EPIC
+          LOGO
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-time" : "fas fa-bars"} />
@@ -65,6 +65,11 @@ function Navbar() {
               Services <i className="fas fa-caret-down" />
             </Link>
             {dropdown && <Dropdown onCloseMobileMenu={closeMobileMenu} />}
+          </li>
+          <li className="nav-item">
+            <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
+              Blog
+            </Link>
           </li>
           <li className="nav-item">
             <Link

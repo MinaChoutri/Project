@@ -1,22 +1,12 @@
 export const MenuItems = [
   {
-    title: "Service 1",
-    path: "/service-1",
+    title: "Nos sites",
+    path: "/les-meilleurs-sites-pour-vos-backlinks",
     cName: "dropdown-link",
   },
   {
-    title: "Service 2",
-    path: "/service-2",
-    cName: "dropdown-link",
-  },
-  {
-    title: "Service 3",
-    path: "/service-3",
-    cName: "dropdown-link",
-  },
-  {
-    title: "Service 4",
-    path: "/service-4",
+    title: "Content creation",
+    path: "/service-creation-article-et-contenu",
     cName: "dropdown-link",
   },
 ];
